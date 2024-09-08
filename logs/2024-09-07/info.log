@@ -1,0 +1,491 @@
+2024-09-07 19:28:38.069 INFO  16532 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 16532 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 19:28:38.076 INFO  16532 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 19:28:38.689 INFO  16532 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 19:28:38.691 INFO  16532 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 19:28:38.718 INFO  16532 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 19:28:39.245 INFO  16532 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 19:28:39.249 INFO  16532 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 19:28:39.250 INFO  16532 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 19:28:39.254 INFO  16532 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 19:28:39.260 INFO  16532 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:28:39.263 INFO  16532 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 19:28:39.263 INFO  16532 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 19:28:39.314 INFO  16532 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 19:28:39.314 INFO  16532 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1207 ms
+2024-09-07 19:28:39.641 INFO  16532 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 19:28:39.719 INFO  16532 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 19:28:40.187 INFO  16532 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 19:28:40.780 INFO  16532 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:28:40.800 INFO  16532 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 19:28:40.809 INFO  16532 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.105 seconds (process running for 3.821)
+2024-09-07 19:28:55.921 INFO  16532 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 19:28:55.922 INFO  16532 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 19:28:55.923 INFO  16532 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 19:28:56.408 INFO  16532 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 19:29:52.056 INFO  16532 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 19:29:52.059 INFO  16532 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 19:29:55.664 INFO  19644 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 19644 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 19:29:55.670 INFO  19644 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 19:29:56.288 INFO  19644 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 19:29:56.290 INFO  19644 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 19:29:56.321 INFO  19644 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 19:29:56.846 INFO  19644 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 19:29:56.850 INFO  19644 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 19:29:56.851 INFO  19644 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 19:29:56.855 INFO  19644 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 19:29:56.861 INFO  19644 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:29:56.864 INFO  19644 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 19:29:56.865 INFO  19644 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 19:29:56.916 INFO  19644 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 19:29:56.916 INFO  19644 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1214 ms
+2024-09-07 19:29:57.246 INFO  19644 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 19:29:57.324 INFO  19644 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 19:29:57.779 INFO  19644 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 19:29:58.371 INFO  19644 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:29:58.390 INFO  19644 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 19:29:58.400 INFO  19644 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.094 seconds (process running for 3.873)
+2024-09-07 19:30:23.415 INFO  19644 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 19:30:23.416 INFO  19644 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 19:30:23.417 INFO  19644 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 0 ms
+2024-09-07 19:30:23.899 INFO  19644 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 19:35:51.434 INFO  19644 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 19:35:51.438 INFO  19644 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 19:35:55.232 INFO  19484 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 19484 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 19:35:55.238 INFO  19484 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 19:35:55.846 INFO  19484 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 19:35:55.848 INFO  19484 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 19:35:55.875 INFO  19484 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 19:35:56.415 INFO  19484 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 19:35:56.420 INFO  19484 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 19:35:56.420 INFO  19484 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 19:35:56.425 INFO  19484 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 19:35:56.431 INFO  19484 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:35:56.434 INFO  19484 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 19:35:56.434 INFO  19484 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 19:35:56.486 INFO  19484 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 19:35:56.487 INFO  19484 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1218 ms
+2024-09-07 19:35:56.817 INFO  19484 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 19:35:56.893 INFO  19484 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 19:35:57.348 INFO  19484 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 19:35:57.939 INFO  19484 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 19:35:57.960 INFO  19484 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 19:35:57.969 INFO  19484 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.106 seconds (process running for 3.788)
+2024-09-07 19:36:14.681 INFO  19484 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 19:36:14.682 INFO  19484 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 19:36:14.683 INFO  19484 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 19:36:15.157 INFO  19484 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 19:37:20.992 INFO  19484 --- [nio-8080-exec-2] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 227 ms
+2024-09-07 20:00:03.683 INFO  19484 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:00:03.687 INFO  19484 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:00:07.439 INFO  17536 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 17536 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:00:07.445 INFO  17536 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:00:08.073 INFO  17536 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:00:08.075 INFO  17536 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:00:08.104 INFO  17536 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:00:08.643 INFO  17536 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:00:08.647 INFO  17536 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:00:08.647 INFO  17536 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:00:08.652 INFO  17536 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:00:08.658 INFO  17536 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:00:08.661 INFO  17536 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:00:08.661 INFO  17536 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:00:08.717 INFO  17536 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:00:08.717 INFO  17536 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1241 ms
+2024-09-07 20:00:09.052 INFO  17536 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:00:09.129 INFO  17536 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:00:09.576 INFO  17536 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:00:10.157 INFO  17536 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:00:10.178 INFO  17536 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:00:10.187 INFO  17536 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.117 seconds (process running for 3.824)
+2024-09-07 20:00:30.123 INFO  17536 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:00:30.123 INFO  17536 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:00:30.124 INFO  17536 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:00:30.601 INFO  17536 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:05:36.021 INFO  17536 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:05:36.024 INFO  17536 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:05:39.799 INFO  15636 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 15636 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:05:39.806 INFO  15636 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:05:40.419 INFO  15636 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:05:40.421 INFO  15636 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:05:40.447 INFO  15636 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:05:40.975 INFO  15636 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:05:40.979 INFO  15636 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:05:40.979 INFO  15636 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:05:40.983 INFO  15636 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:05:40.989 INFO  15636 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:05:40.992 INFO  15636 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:05:40.992 INFO  15636 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:05:41.044 INFO  15636 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:05:41.045 INFO  15636 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1204 ms
+2024-09-07 20:05:41.374 INFO  15636 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:05:41.451 INFO  15636 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:05:41.899 INFO  15636 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:05:42.472 INFO  15636 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:05:42.492 INFO  15636 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:05:42.501 INFO  15636 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.06 seconds (process running for 3.734)
+2024-09-07 20:06:02.956 INFO  15636 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:06:02.957 INFO  15636 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:06:02.958 INFO  15636 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 0 ms
+2024-09-07 20:06:03.973 INFO  15636 --- [nio-8080-exec-2] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:06:03.973 INFO  15636 --- [nio-8080-exec-6] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:07:36.994 INFO  15636 --- [nio-8080-exec-8] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:07:50.706 INFO  15636 --- [nio-8080-exec-5] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:08:23.878 INFO  15636 --- [nio-8080-exec-9] o.l.c.s.JwtTokenFilter [57] : userPo:  1
+2024-09-07 20:10:58.311 INFO  15636 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:10:58.315 INFO  15636 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:11:00.679 INFO  13176 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 13176 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:11:00.685 INFO  13176 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:11:01.326 INFO  13176 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:11:01.329 INFO  13176 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:11:01.358 INFO  13176 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:11:01.906 INFO  13176 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:11:01.912 INFO  13176 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:11:01.912 INFO  13176 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:11:01.917 INFO  13176 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:11:01.924 INFO  13176 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:11:01.927 INFO  13176 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:11:01.927 INFO  13176 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:11:01.978 INFO  13176 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:11:01.978 INFO  13176 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1261 ms
+2024-09-07 20:11:02.307 INFO  13176 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:11:02.384 INFO  13176 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:11:02.837 INFO  13176 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:11:03.415 INFO  13176 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:11:03.434 INFO  13176 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:11:03.443 INFO  13176 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.131 seconds (process running for 3.884)
+2024-09-07 20:11:13.697 INFO  13176 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:11:13.697 INFO  13176 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:11:13.698 INFO  13176 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:11:36.471 INFO  13176 --- [nio-8080-exec-7] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 212 ms
+2024-09-07 20:22:12.996 INFO  13176 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:22:12.997 INFO  13176 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:22:16.854 INFO  18724 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 18724 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:22:16.862 INFO  18724 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:22:17.475 INFO  18724 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:22:17.477 INFO  18724 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:22:17.506 INFO  18724 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:22:18.037 INFO  18724 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:22:18.041 INFO  18724 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:22:18.042 INFO  18724 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:22:18.046 INFO  18724 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:22:18.053 INFO  18724 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:22:18.056 INFO  18724 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:22:18.057 INFO  18724 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:22:18.108 INFO  18724 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:22:18.109 INFO  18724 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1216 ms
+2024-09-07 20:22:18.435 INFO  18724 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:22:18.512 INFO  18724 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:22:18.963 INFO  18724 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:22:19.538 INFO  18724 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:22:19.558 INFO  18724 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:22:19.567 INFO  18724 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.07 seconds (process running for 3.79)
+2024-09-07 20:22:31.763 INFO  18724 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:22:31.764 INFO  18724 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:22:31.765 INFO  18724 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:22:32.048 INFO  18724 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 244 ms
+2024-09-07 20:24:25.470 INFO  18724 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:24:25.471 INFO  18724 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:24:29.029 INFO   8084 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 8084 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:24:29.035 INFO   8084 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:24:29.648 INFO   8084 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:24:29.650 INFO   8084 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:24:29.678 INFO   8084 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:24:30.211 INFO   8084 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:24:30.216 INFO   8084 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:24:30.216 INFO   8084 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:24:30.220 INFO   8084 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:24:30.226 INFO   8084 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:24:30.229 INFO   8084 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:24:30.229 INFO   8084 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:24:30.283 INFO   8084 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:24:30.283 INFO   8084 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1214 ms
+2024-09-07 20:24:30.621 INFO   8084 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:24:30.698 INFO   8084 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:24:31.150 INFO   8084 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:24:31.726 INFO   8084 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:24:31.745 INFO   8084 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:24:31.754 INFO   8084 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.087 seconds (process running for 3.756)
+2024-09-07 20:24:44.687 INFO   8084 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:24:44.687 INFO   8084 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:24:44.688 INFO   8084 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:24:44.972 INFO   8084 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 244 ms
+2024-09-07 20:28:07.974 INFO   8084 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:28:07.974 INFO   8084 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:28:11.713 INFO  13652 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 13652 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:28:11.720 INFO  13652 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:28:12.338 INFO  13652 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:28:12.340 INFO  13652 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:28:12.366 INFO  13652 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:28:12.890 INFO  13652 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:28:12.894 INFO  13652 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:28:12.895 INFO  13652 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:28:12.899 INFO  13652 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:28:12.905 INFO  13652 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:28:12.908 INFO  13652 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:28:12.908 INFO  13652 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:28:12.961 INFO  13652 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:28:12.961 INFO  13652 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1210 ms
+2024-09-07 20:28:13.292 INFO  13652 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:28:13.369 INFO  13652 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:28:13.822 INFO  13652 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:28:14.398 INFO  13652 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:28:14.418 INFO  13652 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:28:14.427 INFO  13652 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.078 seconds (process running for 3.762)
+2024-09-07 20:28:23.182 INFO  13652 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:28:23.182 INFO  13652 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:28:23.183 INFO  13652 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:28:23.467 INFO  13652 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 243 ms
+2024-09-07 20:31:25.702 INFO  13652 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:31:25.703 INFO  13652 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:31:31.758 INFO  19436 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 19436 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:31:31.764 INFO  19436 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:31:32.424 INFO  19436 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:31:32.426 INFO  19436 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:31:32.455 INFO  19436 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:31:32.997 INFO  19436 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:31:33.000 INFO  19436 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:31:33.001 INFO  19436 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:31:33.005 INFO  19436 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:31:33.011 INFO  19436 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:31:33.014 INFO  19436 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:31:33.014 INFO  19436 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:31:33.067 INFO  19436 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:31:33.067 INFO  19436 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1271 ms
+2024-09-07 20:31:33.392 INFO  19436 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:31:33.469 INFO  19436 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:31:33.919 INFO  19436 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:31:34.496 INFO  19436 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:31:34.516 INFO  19436 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:31:34.525 INFO  19436 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.136 seconds (process running for 3.834)
+2024-09-07 20:31:42.825 INFO  19436 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:31:42.825 INFO  19436 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:31:42.826 INFO  19436 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 0 ms
+2024-09-07 20:31:43.109 INFO  19436 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 243 ms
+2024-09-07 20:35:05.868 INFO  19436 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:35:05.868 INFO  19436 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:35:09.410 INFO  19784 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 19784 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:35:09.418 INFO  19784 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:35:10.034 INFO  19784 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:35:10.036 INFO  19784 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:35:10.064 INFO  19784 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:35:10.597 INFO  19784 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:35:10.603 INFO  19784 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:35:10.603 INFO  19784 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:35:10.607 INFO  19784 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:35:10.615 INFO  19784 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:35:10.618 INFO  19784 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:35:10.618 INFO  19784 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:35:10.670 INFO  19784 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:35:10.671 INFO  19784 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1221 ms
+2024-09-07 20:35:11.009 INFO  19784 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:35:11.086 INFO  19784 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:35:11.544 INFO  19784 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:35:12.127 INFO  19784 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:35:12.147 INFO  19784 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:35:12.156 INFO  19784 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.111 seconds (process running for 3.782)
+2024-09-07 20:35:21.939 INFO  19784 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:35:21.940 INFO  19784 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:35:21.941 INFO  19784 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:35:22.226 INFO  19784 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 243 ms
+2024-09-07 20:37:28.177 INFO  19784 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:37:28.178 INFO  19784 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 20:37:31.845 INFO   1416 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 1416 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 20:37:31.852 INFO   1416 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 20:37:32.482 INFO   1416 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 20:37:32.484 INFO   1416 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 20:37:32.512 INFO   1416 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 20:37:33.044 INFO   1416 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 20:37:33.049 INFO   1416 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 20:37:33.050 INFO   1416 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 20:37:33.054 INFO   1416 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 20:37:33.060 INFO   1416 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:37:33.063 INFO   1416 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 20:37:33.063 INFO   1416 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 20:37:33.115 INFO   1416 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 20:37:33.116 INFO   1416 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1231 ms
+2024-09-07 20:37:33.439 INFO   1416 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 20:37:33.516 INFO   1416 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 20:37:33.975 INFO   1416 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 20:37:34.556 INFO   1416 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 20:37:34.576 INFO   1416 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 20:37:34.585 INFO   1416 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.101 seconds (process running for 3.768)
+2024-09-07 20:37:39.394 INFO   1416 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 20:37:39.394 INFO   1416 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 20:37:39.396 INFO   1416 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 20:37:39.688 INFO   1416 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 252 ms
+2024-09-07 20:38:00.203 INFO   1416 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 20:38:00.203 INFO   1416 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:06:32.895 INFO   4904 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:06:32.896 INFO   4904 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:06:39.947 INFO  20248 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 20248 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:06:39.955 INFO  20248 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:06:40.591 INFO  20248 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:06:40.593 INFO  20248 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:06:40.626 INFO  20248 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:06:41.157 INFO  20248 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:06:41.162 INFO  20248 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:06:41.162 INFO  20248 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:06:41.167 INFO  20248 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:06:41.173 INFO  20248 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:06:41.176 INFO  20248 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:06:41.177 INFO  20248 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:06:41.228 INFO  20248 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:06:41.228 INFO  20248 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1240 ms
+2024-09-07 21:06:41.556 INFO  20248 --- [           main] o.a.c.c.StandardService [173] : Stopping service [Tomcat]
+2024-09-07 21:06:41.579 INFO  20248 --- [           main] o.s.b.a.l.ConditionEvaluationReportLogger [82] : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-07 21:07:39.478 INFO  12188 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 12188 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:07:39.485 INFO  12188 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:07:40.103 INFO  12188 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:07:40.105 INFO  12188 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:07:40.134 INFO  12188 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:07:40.664 INFO  12188 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:07:40.669 INFO  12188 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:07:40.670 INFO  12188 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:07:40.674 INFO  12188 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:07:40.680 INFO  12188 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:07:40.683 INFO  12188 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:07:40.683 INFO  12188 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:07:40.737 INFO  12188 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:07:40.737 INFO  12188 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1219 ms
+2024-09-07 21:07:41.068 INFO  12188 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:07:41.144 INFO  12188 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:07:41.595 INFO  12188 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:07:42.178 INFO  12188 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:07:42.196 INFO  12188 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:07:42.206 INFO  12188 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.086 seconds (process running for 3.753)
+2024-09-07 21:07:55.060 INFO  12188 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 21:07:55.060 INFO  12188 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 21:07:55.061 INFO  12188 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 21:07:55.534 INFO  12188 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 21:10:23.720 INFO  12188 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:10:23.723 INFO  12188 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:10:27.520 INFO   8592 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 8592 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:10:27.526 INFO   8592 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:10:28.144 INFO   8592 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:10:28.146 INFO   8592 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:10:28.174 INFO   8592 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:10:28.706 INFO   8592 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:10:28.711 INFO   8592 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:10:28.712 INFO   8592 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:10:28.716 INFO   8592 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:10:28.722 INFO   8592 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:10:28.725 INFO   8592 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:10:28.725 INFO   8592 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:10:28.776 INFO   8592 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:10:28.777 INFO   8592 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1220 ms
+2024-09-07 21:10:29.107 INFO   8592 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:10:29.184 INFO   8592 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:10:29.636 INFO   8592 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:10:30.217 INFO   8592 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:10:30.236 INFO   8592 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:10:30.245 INFO   8592 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.093 seconds (process running for 3.77)
+2024-09-07 21:10:38.982 INFO   8592 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 21:10:38.982 INFO   8592 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 21:10:38.983 INFO   8592 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 21:10:39.468 INFO   8592 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 21:11:19.499 INFO   8592 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:11:19.502 INFO   8592 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:11:23.171 INFO  19932 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 19932 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:11:23.179 INFO  19932 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:11:23.791 INFO  19932 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:11:23.794 INFO  19932 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:11:23.821 INFO  19932 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:11:24.357 INFO  19932 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:11:24.361 INFO  19932 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:11:24.361 INFO  19932 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:11:24.366 INFO  19932 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:11:24.372 INFO  19932 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:11:24.375 INFO  19932 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:11:24.376 INFO  19932 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:11:24.426 INFO  19932 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:11:24.426 INFO  19932 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1216 ms
+2024-09-07 21:11:24.758 INFO  19932 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:11:24.835 INFO  19932 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:11:25.282 INFO  19932 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:11:25.862 INFO  19932 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:11:25.882 INFO  19932 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:11:25.891 INFO  19932 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.08 seconds (process running for 3.748)
+2024-09-07 21:20:54.028 INFO  19932 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:20:54.029 INFO  19932 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:20:57.857 INFO  17776 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 17776 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:20:57.864 INFO  17776 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:20:58.492 INFO  17776 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:20:58.495 INFO  17776 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:20:58.524 INFO  17776 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:20:59.061 INFO  17776 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:20:59.066 INFO  17776 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:20:59.066 INFO  17776 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:20:59.070 INFO  17776 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:20:59.076 INFO  17776 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:20:59.079 INFO  17776 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:20:59.080 INFO  17776 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:20:59.132 INFO  17776 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:20:59.133 INFO  17776 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1238 ms
+2024-09-07 21:20:59.458 INFO  17776 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:20:59.535 INFO  17776 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:20:59.986 INFO  17776 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:21:00.565 INFO  17776 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:21:00.585 INFO  17776 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:21:00.594 INFO  17776 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.116 seconds (process running for 3.808)
+2024-09-07 21:21:07.097 INFO  17776 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 21:21:07.097 INFO  17776 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 21:21:07.099 INFO  17776 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 21:21:07.572 INFO  17776 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 21:21:59.992 INFO  17776 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:21:59.995 INFO  17776 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:22:06.934 INFO  20232 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 20232 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:22:06.941 INFO  20232 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:22:07.566 INFO  20232 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:22:07.568 INFO  20232 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:22:07.596 INFO  20232 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:22:08.120 INFO  20232 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:22:08.125 INFO  20232 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:22:08.125 INFO  20232 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:22:08.130 INFO  20232 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:22:08.136 INFO  20232 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:22:08.139 INFO  20232 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:22:08.139 INFO  20232 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:22:08.192 INFO  20232 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:22:08.192 INFO  20232 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1219 ms
+2024-09-07 21:22:08.515 INFO  20232 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:22:08.592 INFO  20232 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:22:09.044 INFO  20232 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:22:09.612 INFO  20232 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:22:09.632 INFO  20232 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:22:09.641 INFO  20232 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.079 seconds (process running for 3.857)
+2024-09-07 21:22:13.858 INFO  20232 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 21:22:13.859 INFO  20232 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 21:22:13.860 INFO  20232 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 21:22:14.339 INFO  20232 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 21:23:14.859 INFO  20232 --- [nio-8080-exec-2] o.s.a.AbstractOpenApiResource [387] : Init duration for springdoc-openapi is: 209 ms
+2024-09-07 21:34:27.492 INFO  20232 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 21:34:27.495 INFO  20232 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed
+2024-09-07 21:34:30.910 INFO   8352 --- [           main] o.l.c.ChaosJavaApplication [50] : Starting ChaosJavaApplication using Java 17.0.10 with PID 8352 (E:\project-template\chaos\chaos-java\target\classes started by liuhuxue in E:\project-template\chaos\chaos-java)
+2024-09-07 21:34:30.917 INFO   8352 --- [           main] o.l.c.ChaosJavaApplication [654] : No active profile set, falling back to 1 default profile: "default"
+2024-09-07 21:34:31.534 INFO   8352 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [295] : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-07 21:34:31.537 INFO   8352 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [143] : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-07 21:34:31.568 INFO   8352 --- [           main] o.s.d.r.c.RepositoryConfigurationDelegate [211] : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-09-07 21:34:32.114 INFO   8352 --- [           main] o.s.b.w.e.t.TomcatWebServer [111] : Tomcat initialized with port 8080 (http)
+2024-09-07 21:34:32.119 INFO   8352 --- [           main] o.a.c.c.AprLifecycleListener [173] : An older version [1.3.0] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2024-09-07 21:34:32.120 INFO   8352 --- [           main] o.a.c.c.AprLifecycleListener [173] : Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.4].
+2024-09-07 21:34:32.124 INFO   8352 --- [           main] o.a.c.c.AprLifecycleListener [173] : OpenSSL successfully initialized [OpenSSL 3.0.13 30 Jan 2024]
+2024-09-07 21:34:32.131 INFO   8352 --- [           main] o.a.c.h.Http11NioProtocol [173] : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:34:32.134 INFO   8352 --- [           main] o.a.c.c.StandardService [173] : Starting service [Tomcat]
+2024-09-07 21:34:32.134 INFO   8352 --- [           main] o.a.c.c.StandardEngine [173] : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-07 21:34:32.186 INFO   8352 --- [           main] o.a.c.c.C.[.[.[/] [173] : Initializing Spring embedded WebApplicationContext
+2024-09-07 21:34:32.186 INFO   8352 --- [           main] o.s.b.w.s.c.ServletWebServerApplicationContext [296] : Root WebApplicationContext: initialization completed in 1239 ms
+2024-09-07 21:34:32.510 INFO   8352 --- [           main] c.a.d.s.b.a.DruidDataSourceAutoConfigure [68] : Init DruidDataSource
+2024-09-07 21:34:32.585 INFO   8352 --- [           main] c.a.d.p.DruidDataSource [1002] : {dataSource-1} inited
+2024-09-07 21:34:33.041 INFO   8352 --- [           main] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [113] : Global AuthenticationManager configured with UserDetailsService bean with name daoUserDetailsService
+2024-09-07 21:34:33.630 INFO   8352 --- [           main] o.a.c.h.Http11NioProtocol [173] : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-07 21:34:33.646 INFO   8352 --- [           main] o.s.b.w.e.t.TomcatWebServer [243] : Tomcat started on port 8080 (http) with context path '/'
+2024-09-07 21:34:33.655 INFO   8352 --- [           main] o.l.c.ChaosJavaApplication [56] : Started ChaosJavaApplication in 3.108 seconds (process running for 3.78)
+2024-09-07 21:34:44.038 INFO   8352 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/] [173] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-07 21:34:44.038 INFO   8352 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [532] : Initializing Servlet 'dispatcherServlet'
+2024-09-07 21:34:44.039 INFO   8352 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet [554] : Completed initialization in 1 ms
+2024-09-07 21:34:44.523 INFO   8352 --- [nio-8080-exec-1] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 21:56:58.695 INFO   8352 --- [nio-8080-exec-2] o.l.c.s.JwtTokenFilter [54] : user:  1
+2024-09-07 22:03:42.860 INFO   8352 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2204] : {dataSource-1} closing ...
+2024-09-07 22:03:42.863 INFO   8352 --- [ionShutdownHook] c.a.d.p.DruidDataSource [2277] : {dataSource-1} closed

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.liushuxue.chaos.mapper.MenuMapper">
+
+    <resultMap id="BaseResultMap" type="org.liushuxue.chaos.entity.MenuPo">
+        <id property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="code" column="code" jdbcType="VARCHAR"/>
+        <result property="path" column="path" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="BIT"/>
+        <collection property="children"
+                    ofType="org.liushuxue.chaos.entity.MenuPo"
+                    column="code"
+                    select="org.liushuxue.chaos.mapper.MenuMapper.findChildren"
+        />
+    </resultMap>
+
+    <sql id="Base_Column_List">  id,name,code, path, parent_code,status</sql>
+
+
+    <select id="findChildren" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"/> from t_menu where parent_code = #{code}
+    </select>
+    <select id="findTreeList" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"/> from t_menu where parent_code is null or parent_code = ''
+    </select>
+</mapper>

@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: chaos-java
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/chaos?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+      password: 123456
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  thymeleaf:
+    check-template-location: false
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.log4j2.Log4j2Impl
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:mapper/*.xml, classpath*:mapper/**/*.xml
+jwt:
+  secret: password@2024
+  issuer: admin
+  expire: 1440
+springdoc:
+  cache:
+    disabled: true

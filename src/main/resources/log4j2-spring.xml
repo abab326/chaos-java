@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+https://logging.apache.org/log4j/2.x/manual/configuration.html
+configuration是log4j2.xml配置文件的根标签
+monitorInterval 如果设置了monitorInterval这个参数，则项目在运行时，会按照设置的参数值定期扫描日志配置，动态地改变日志的配置。参数的单位为秒。
+name    这个设置日志配置的名称
+status  这个参数通常会见到，用于设置log4j内部代码的日志打印级别.它有这些可能的值：trace，debug，info，warn，error，fatal
+dest    log4j内部代码的日志打印目的。“err”表示stderr，“out”表示stdout、文件路径或URL
+packages 以逗号分隔的包名称列表，用于搜索插件
+strict  是否使用严格的XML格式。不支持JSON的配置方式
+schema  指定文档约束，只有在设置了strict=true的情况下才生效，如果没有设置那么不进行模式验证
+-->
+<configuration name="log4j2config" status="OFF">
+      <!-- 设置全局变量 -->
+    <properties>
+        <!-- 日志打印级别 TRACE < DEBUG < INFO < WARN < ERROR < FATAL -->
+        <property name="LOG_LEVEL">INFO</property>
+        <!-- 日志文件存储路径 -->
+        <property name="LOG_HOME">./logs/</property>
+        <!-- 存储天数 -->
+        <property name="LOG_MAX_HISTORY" value="60d"/>
+        <!-- 单个日志文件最大值, 单位 = KB, MB, GB -->
+        <property name="LOG_MAX_FILE_SIZE" value="10 MB"/>
+        <!-- 每天每个日志级别产生的文件最大数量 -->
+        <property name="LOG_TOTAL_NUMBER_DAILY" value="10"/>
+        <!-- 压缩文件的类型,支持zip和gz,建议Linux用gz,Windows用zip -->
+        <property name="ARCHIVE_FILE_SUFFIX" value="zip"/>
+        <!-- 日志文件名 -->
+        <property name="LOG_FILE_NAME" value="${LOG_HOME}"/>
+        <property name="FILE_NAME_PATTERN" value="${LOG_HOME}%d{yyyy-MM-dd}"/>
+
+        <!--日志输出格式-控制台彩色打印-->
+        <property name="ENCODER_PATTERN_CONSOLE">%blue{%d{yyyy-MM-dd HH:mm:ss.SSS}} | %highlight{%-5level}{ERROR=Bright RED, WARN=Bright Yellow, INFO=Bright Green, DEBUG=Bright Cyan, TRACE=Bright White} | %yellow{%t} | %cyan{%c{1.}} ： %white{%msg%n}
+        </property>
+        <!--日志输出格式-文件-->
+        <property name="ENCODER_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %5pid --- [%15.15t] %c{1.} [%L] : %m%n
+        </property>
+        <!--日志输出格式-控制台彩色打印-->
+        <property name="DEFAULT_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight{%-5level} %style{%5pid}{bright,magenta} --日志-- [%15.15t] %cyan{%c{1.} [%L]} : %m%n
+        </property>
+    </properties>
+
+    <Appenders>
+        <!-- 控制台的输出配置 -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--输出日志的格式-->
+            <PatternLayout pattern="${DEFAULT_PATTERN}"/>
+        </Console>
+        <!-- 打印出所有的 info 及以下级别的信息，每次大小超过size进行压缩，作为存档-->
+        <RollingFile name="RollingFileInfo"
+                     fileName="${LOG_FILE_NAME}/${date:yyyy-MM-dd}/info.log"
+                     filePattern="${FILE_NAME_PATTERN}/info.log">
+            <Filters>
+                <ThresholdFilter level="INFO"/>
+                <ThresholdFilter level="WARN" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+
+            <!--输出日志的格式-->
+            <PatternLayout pattern="${ENCODER_PATTERN}"/>
+            <Policies>
+                <!-- 归档每天的文件 -->
+                <TimeBasedTriggeringPolicy/>
+                <!-- 限制单个文件大小 -->
+                <SizeBasedTriggeringPolicy size="${LOG_MAX_FILE_SIZE}"/>
+            </Policies>
+            <!-- 限制每天文件个数 -->
+            <DefaultRolloverStrategy compressionLevel="9" max="${LOG_TOTAL_NUMBER_DAILY}">
+                <Delete basePath="${LOG_HOME}" maxDepth="1">
+                    <IfFileName glob=".info.*.log"/>
+                    <IfLastModified age="${LOG_MAX_HISTORY}"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        <!-- 打印出所有的 WARN 及以下级别的信息，每次大小超过size进行压缩，作为存档-->
+        <RollingFile name="RollingFileWarn"
+                     fileName="${LOG_FILE_NAME}/${date:yyyy-MM-dd}/warn.log"
+                     filePattern="${FILE_NAME_PATTERN}.warn.log">
+            <Filters>
+                <ThresholdFilter level="WARN"/>
+                <ThresholdFilter level="ERROR" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <PatternLayout pattern="${ENCODER_PATTERN}"/>
+            <Policies>
+                <!-- 归档每天的文件 -->
+                <TimeBasedTriggeringPolicy/>
+                <!-- 限制单个文件大小 -->
+                <SizeBasedTriggeringPolicy size="${LOG_MAX_FILE_SIZE}"/>
+            </Policies>
+            <!-- 限制每天文件个数 -->
+            <DefaultRolloverStrategy compressionLevel="9"
+                                     max="${LOG_TOTAL_NUMBER_DAILY}">
+                <Delete basePath="${LOG_HOME}" maxDepth="1">
+                    <IfFileName glob="*.warn.*.log"/>
+                    <IfLastModified age="${LOG_MAX_HISTORY}"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+        <!-- 打印出所有的 ERROR 及以下级别的信息，每次大小超过size进行压缩，作为存档-->
+        <RollingFile name="RollingFileError"
+                     fileName="${LOG_FILE_NAME}/${date:yyyy-MM-dd}/error.log"
+                     filePattern="${FILE_NAME_PATTERN}.error.log">
+            <Filters>
+                <ThresholdFilter level="ERROR"/>
+            </Filters>
+            <PatternLayout pattern="${ENCODER_PATTERN}"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy/>
+                <SizeBasedTriggeringPolicy size="${LOG_MAX_FILE_SIZE}"/>
+            </Policies>
+            <DefaultRolloverStrategy compressionLevel="9" max="${LOG_TOTAL_NUMBER_DAILY}">
+                <Delete basePath="${LOG_HOME}" maxDepth="1">
+                    <IfFileName glob="*.error.*.log"/>
+                    <IfLastModified age="${LOG_MAX_HISTORY}"/>
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+    </Appenders>
+
+    <!--只有定义了logger并引入以上 Appenders，Appender才会生效-->
+    <Loggers>
+        <Logger name="org.liushuxue.chaos.mapper" level="debug" additivity="false">
+                <AppenderRef ref="Console"/>
+        </Logger>
+
+        <root level="${LOG_LEVEL}">
+            <appender-ref ref="Console"/>
+            <appender-ref ref="RollingFileInfo"/>
+            <appender-ref ref="RollingFileWarn"/>
+            <appender-ref ref="RollingFileError"/>
+        </root>
+    </Loggers>
+</configuration>
