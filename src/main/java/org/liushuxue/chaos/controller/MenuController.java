@@ -26,4 +26,10 @@ public class MenuController {
     List<MenuVo> findTreeMenuList() {
         return menuService.findTreeList("");
     }
+
+    @Operation(summary = "获取菜单列表")
+    @GetMapping("/list")
+    List<MenuPo> findMenuList() {
+        return menuService.list();
+    }
 }
