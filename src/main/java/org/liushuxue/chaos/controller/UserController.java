@@ -2,6 +2,9 @@ package org.liushuxue.chaos.controller;
 
 import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -11,6 +14,7 @@ import lombok.extern.log4j.Log4j2;
 import org.liushuxue.chaos.bean.user.LoginVo;
 import org.liushuxue.chaos.bean.user.RegisterVo;
 import org.liushuxue.chaos.bean.user.UserVo;
+import org.liushuxue.chaos.entity.MenuPo;
 import org.liushuxue.chaos.entity.UserPo;
 import org.liushuxue.chaos.service.UserService;
 import org.liushuxue.chaos.bean.user.UserStructMapper;
@@ -86,4 +90,15 @@ public class UserController {
         userPo.setPassword(PasswordEncoderFactories.createDelegatingPasswordEncoder().encode(registerVO.getPassword()));
         userService.save(userPo);
     }
+
+
+    @Operation(summary = "分页查询用户列表 ")
+    @PostMapping("/register2")
+    public Page<UserPo> listPage(@RequestParam(name = "size",defaultValue = "10") int page, @RequestParam(name = "size",defaultValue = "10") int size) {
+        QueryWrapper<UserPo> wrapper = new QueryWrapper<>();
+        wrapper.like("post_title", "admin");
+        Page<UserPo> postPage = new Page<>(page, size);
+        return userService.page(postPage, wrapper);
+    }
+
 }
